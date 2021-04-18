@@ -1,0 +1,33 @@
+#map {
+    height: 70%
+}
+#FindTaxiStand {
+    margin-top: 35px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#switchDiv {
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#infoWindow {
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.form-check-input {
+    transform: scale(2);
+}
+.form-check-label {
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+}

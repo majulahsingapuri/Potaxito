@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DB73EF58AB31C4C17A62199 /* Pods_Potaxito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0BC267A6CA5254B9A91EA6 /* Pods_Potaxito.framework */; };
+		0FD4C38D25E798E700CEB46D /* FetchTaxiStands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD4C38C25E798E700CEB46D /* FetchTaxiStands.swift */; };
+		0FD4C39125E7992700CEB46D /* TaxiStandMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD4C39025E7992700CEB46D /* TaxiStandMarker.swift */; };
+		259238D825DE3699005AC5CF /* FetchTaxiLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259238D725DE3699005AC5CF /* FetchTaxiLocations.swift */; };
+		4C85D7CF25FF711700F34F34 /* TaxiMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C85D7CE25FF711700F34F34 /* TaxiMarker.swift */; };
+		4CB58E1E25D9FA2800BA5A7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB58E1D25D9FA2800BA5A7C /* AppDelegate.swift */; };
+		4CB58E2025D9FA2800BA5A7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB58E1F25D9FA2800BA5A7C /* SceneDelegate.swift */; };
+		4CB58E2525D9FA2800BA5A7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB58E2325D9FA2800BA5A7C /* Main.storyboard */; };
+		4CB58E2825D9FA2800BA5A7C /* Potaxito.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CB58E2625D9FA2800BA5A7C /* Potaxito.xcdatamodeld */; };
+		4CB58E2A25D9FA2A00BA5A7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB58E2925D9FA2A00BA5A7C /* Assets.xcassets */; };
+		4CB58E2D25D9FA2A00BA5A7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB58E2B25D9FA2A00BA5A7C /* LaunchScreen.storyboard */; };
+		4CB58E4C25D9FBCF00BA5A7C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CB58E4B25D9FBCF00BA5A7C /* GoogleService-Info.plist */; };
+		4CB58E4F25D9FC3900BA5A7C /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB58E4E25D9FC3900BA5A7C /* Secrets.swift */; };
+		4CB58E5325D9FCBC00BA5A7C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB58E5225D9FCBC00BA5A7C /* MapViewController.swift */; };
+		4CE8C7B526043617005B0B94 /* FetchChosenStand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE8C7B426043617005B0B94 /* FetchChosenStand.swift */; };
+		4CE8C7B826043E14005B0B94 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE8C7B726043E14005B0B94 /* CustomError.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FD4C38C25E798E700CEB46D /* FetchTaxiStands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchTaxiStands.swift; sourceTree = "<group>"; };
+		0FD4C39025E7992700CEB46D /* TaxiStandMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiStandMarker.swift; sourceTree = "<group>"; };
+		1479B5EA8B1869CA363CBBFC /* Pods-Potaxito.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Potaxito.debug.xcconfig"; path = "Target Support Files/Pods-Potaxito/Pods-Potaxito.debug.xcconfig"; sourceTree = "<group>"; };
+		20516B096E12AA29B337FACB /* Pods-Potaxito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Potaxito.release.xcconfig"; path = "Target Support Files/Pods-Potaxito/Pods-Potaxito.release.xcconfig"; sourceTree = "<group>"; };
+		259238D725DE3699005AC5CF /* FetchTaxiLocations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchTaxiLocations.swift; sourceTree = "<group>"; };
+		4C85D7CE25FF711700F34F34 /* TaxiMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxiMarker.swift; sourceTree = "<group>"; };
+		4CB58E1A25D9FA2800BA5A7C /* Potaxito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Potaxito.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB58E1D25D9FA2800BA5A7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CB58E1F25D9FA2800BA5A7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4CB58E2425D9FA2800BA5A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CB58E2725D9FA2800BA5A7C /* Potaxito.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Potaxito.xcdatamodel; sourceTree = "<group>"; };
+		4CB58E2925D9FA2A00BA5A7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CB58E2C25D9FA2A00BA5A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CB58E2E25D9FA2A00BA5A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CB58E4B25D9FBCF00BA5A7C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4CB58E4E25D9FC3900BA5A7C /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		4CB58E5225D9FCBC00BA5A7C /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4CE8C7B426043617005B0B94 /* FetchChosenStand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchChosenStand.swift; sourceTree = "<group>"; };
+		4CE8C7B726043E14005B0B94 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		6A0BC267A6CA5254B9A91EA6 /* Pods_Potaxito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Potaxito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CB58E1725D9FA2800BA5A7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB73EF58AB31C4C17A62199 /* Pods_Potaxito.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FD4C38F25E7990F00CEB46D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4C85D7CE25FF711700F34F34 /* TaxiMarker.swift */,
+				0FD4C39025E7992700CEB46D /* TaxiStandMarker.swift */,
+				4CE8C7B726043E14005B0B94 /* CustomError.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		259238D625DE3685005AC5CF /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				259238D725DE3699005AC5CF /* FetchTaxiLocations.swift */,
+				0FD4C38C25E798E700CEB46D /* FetchTaxiStands.swift */,
+				4CE8C7B426043617005B0B94 /* FetchChosenStand.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		4C72C19225DA173C009534F4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4CB58E2325D9FA2800BA5A7C /* Main.storyboard */,
+				4CB58E5225D9FCBC00BA5A7C /* MapViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4C72C19425DA179F009534F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CB58E2925D9FA2A00BA5A7C /* Assets.xcassets */,
+				4CB58E2B25D9FA2A00BA5A7C /* LaunchScreen.storyboard */,
+				4CB58E2E25D9FA2A00BA5A7C /* Info.plist */,
+				4CB58E2625D9FA2800BA5A7C /* Potaxito.xcdatamodeld */,
+				4CB58E4B25D9FBCF00BA5A7C /* GoogleService-Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CB58E1125D9FA2800BA5A7C = {
+			isa = PBXGroup;
+			children = (
+				4CB58E1C25D9FA2800BA5A7C /* Potaxito */,
+				4CB58E1B25D9FA2800BA5A7C /* Products */,
+				AE14C0CE297C4DC59EEC6E82 /* Pods */,
+				8BDDD76A881B2C910D01F9F0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4CB58E1B25D9FA2800BA5A7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CB58E1A25D9FA2800BA5A7C /* Potaxito.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CB58E1C25D9FA2800BA5A7C /* Potaxito */ = {
+			isa = PBXGroup;
+			children = (
+				4CB58E3525D9FA4B00BA5A7C /* App */,
+				259238D625DE3685005AC5CF /* Networking */,
+				0FD4C38F25E7990F00CEB46D /* Models */,
+				4C72C19425DA179F009534F4 /* Supporting Files */,
+			);
+			path = Potaxito;
+			sourceTree = "<group>";
+		};
+		4CB58E3525D9FA4B00BA5A7C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4CB58E4E25D9FC3900BA5A7C /* Secrets.swift */,
+				4CB58E1D25D9FA2800BA5A7C /* AppDelegate.swift */,
+				4CB58E1F25D9FA2800BA5A7C /* SceneDelegate.swift */,
+				4C72C19225DA173C009534F4 /* Main */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8BDDD76A881B2C910D01F9F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A0BC267A6CA5254B9A91EA6 /* Pods_Potaxito.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE14C0CE297C4DC59EEC6E82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1479B5EA8B1869CA363CBBFC /* Pods-Potaxito.debug.xcconfig */,
+				20516B096E12AA29B337FACB /* Pods-Potaxito.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CB58E1925D9FA2800BA5A7C /* Potaxito */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB58E3125D9FA2A00BA5A7C /* Build configuration list for PBXNativeTarget "Potaxito" */;
+			buildPhases = (
+				F5CC865EE09FC802F08AD8A6 /* [CP] Check Pods Manifest.lock */,
+				4CB58E1625D9FA2800BA5A7C /* Sources */,
+				4CB58E1725D9FA2800BA5A7C /* Frameworks */,
+				4CB58E1825D9FA2800BA5A7C /* Resources */,
+				3F37D1553613D9BA31EFDC5B /* [CP] Embed Pods Frameworks */,
+				141D68CEC3B94B40A2D05078 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Potaxito;
+			productName = Potaxito;
+			productReference = 4CB58E1A25D9FA2800BA5A7C /* Potaxito.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CB58E1225D9FA2800BA5A7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					4CB58E1925D9FA2800BA5A7C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 4CB58E1525D9FA2800BA5A7C /* Build configuration list for PBXProject "Potaxito" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CB58E1125D9FA2800BA5A7C;
+			productRefGroup = 4CB58E1B25D9FA2800BA5A7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CB58E1925D9FA2800BA5A7C /* Potaxito */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CB58E1825D9FA2800BA5A7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB58E2D25D9FA2A00BA5A7C /* LaunchScreen.storyboard in Resources */,
+				4CB58E4C25D9FBCF00BA5A7C /* GoogleService-Info.plist in Resources */,
+				4CB58E2A25D9FA2A00BA5A7C /* Assets.xcassets in Resources */,
+				4CB58E2525D9FA2800BA5A7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		141D68CEC3B94B40A2D05078 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Potaxito/Pods-Potaxito-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Potaxito/Pods-Potaxito-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Potaxito/Pods-Potaxito-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F37D1553613D9BA31EFDC5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Potaxito/Pods-Potaxito-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Potaxito/Pods-Potaxito-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Potaxito/Pods-Potaxito-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5CC865EE09FC802F08AD8A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Potaxito-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CB58E1625D9FA2800BA5A7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB58E4F25D9FC3900BA5A7C /* Secrets.swift in Sources */,
+				4CE8C7B526043617005B0B94 /* FetchChosenStand.swift in Sources */,
+				4CB58E2825D9FA2800BA5A7C /* Potaxito.xcdatamodeld in Sources */,
+				0FD4C39125E7992700CEB46D /* TaxiStandMarker.swift in Sources */,
+				4CB58E1E25D9FA2800BA5A7C /* AppDelegate.swift in Sources */,
+				4CB58E5325D9FCBC00BA5A7C /* MapViewController.swift in Sources */,
+				4C85D7CF25FF711700F34F34 /* TaxiMarker.swift in Sources */,
+				0FD4C38D25E798E700CEB46D /* FetchTaxiStands.swift in Sources */,
+				4CB58E2025D9FA2800BA5A7C /* SceneDelegate.swift in Sources */,
+				259238D825DE3699005AC5CF /* FetchTaxiLocations.swift in Sources */,
+				4CE8C7B826043E14005B0B94 /* CustomError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CB58E2325D9FA2800BA5A7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CB58E2425D9FA2800BA5A7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CB58E2B25D9FA2A00BA5A7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CB58E2C25D9FA2A00BA5A7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CB58E2F25D9FA2A00BA5A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CB58E3025D9FA2A00BA5A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CB58E3225D9FA2A00BA5A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1479B5EA8B1869CA363CBBFC /* Pods-Potaxito.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6F9359RN2;
+				INFOPLIST_FILE = "Potaxito/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BhargavSingapuri.Potaxito;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CB58E3325D9FA2A00BA5A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20516B096E12AA29B337FACB /* Pods-Potaxito.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6F9359RN2;
+				INFOPLIST_FILE = "Potaxito/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BhargavSingapuri.Potaxito;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CB58E1525D9FA2800BA5A7C /* Build configuration list for PBXProject "Potaxito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB58E2F25D9FA2A00BA5A7C /* Debug */,
+				4CB58E3025D9FA2A00BA5A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB58E3125D9FA2A00BA5A7C /* Build configuration list for PBXNativeTarget "Potaxito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB58E3225D9FA2A00BA5A7C /* Debug */,
+				4CB58E3325D9FA2A00BA5A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4CB58E2625D9FA2800BA5A7C /* Potaxito.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4CB58E2725D9FA2800BA5A7C /* Potaxito.xcdatamodel */,
+			);
+			currentVersion = 4CB58E2725D9FA2800BA5A7C /* Potaxito.xcdatamodel */;
+			path = Potaxito.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4CB58E1225D9FA2800BA5A7C /* Project object */;
+}

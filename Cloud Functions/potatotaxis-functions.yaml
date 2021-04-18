@@ -1,0 +1,23 @@
+swagger: '2.0'
+info:
+  title: PotatoTaxis GCF Endpoints
+  description: API on Cloud Endpoints with a Google Cloud Functions backend for PotatoTaxis
+  version: 1.0.1
+host: potaxito-fdblks7qkq-et.a.run.app
+schemes:
+  - https
+produces:
+  - application/json
+paths:
+  /FetchTaxiStandScores:
+    post:
+      summary: Send 
+      operationId: FetchTaxiStandScores
+      x-google-backend:
+        address: https://asia-southeast2-potatotaxis.cloudfunctions.net/FetchTaxiStandScores
+        protocol: h2
+      responses:
+        '200':
+          description: A successful response
+          schema:
+            type: application/json

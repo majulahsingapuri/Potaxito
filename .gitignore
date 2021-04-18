@@ -1,0 +1,7 @@
+Podfile.lock
+Potaxito.xcworkspace
+Pods
+.DS_Store
+*.psd
+Secrets.swift
+PotaxitoWeb/public/assets/js/firebase-messaging-sw.js
